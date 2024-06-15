@@ -6,7 +6,7 @@ const app = express();
 app.get("/sitemap.xml", async (req, res) => {
   try {
     const smStream = new SitemapStream({
-      hostname: "https://advaatise.com/", // Replace with your domain
+      hostname: "https://advaatise.com", // Replace with your domain
     });
 
     // Add URLs to the sitemap
